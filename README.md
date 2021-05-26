@@ -1,3 +1,21 @@
+
+## Primera entrega:
+
+El primer paso que realicé fue crear un proyecto con el comando:\
+**create-react-app vita-deco-jardin**\
+esto me generó un nuevo proyecto react en mi computadora.\
+Además corrí el comando:\
+**git init**\
+dentro de la carpeta de dicho proyecto.\
+Luego en mi cuenta en la página de Github creé un nuevo repositorio llamado:\
+**VitaDecoJardin-RamirezSoledad**\
+El siguiente paso fue copiar los comandos brindados por Github al momento de crear el repositorio remoto:\
+**git remote add origin** https://github.com/soledadramirez/VitaDecoJardin-SoledadRamirez.git \
+**git branch -M main**\
+**git push -u origin main**\
+esto fue corrido dentro de la carpeta del proyecto, lo que sincroniza el repositorio local con el remoto.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
