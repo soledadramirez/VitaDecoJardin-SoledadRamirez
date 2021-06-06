@@ -16,9 +16,8 @@ a {
     text-decoration: none;
     color: whitesmoke;
 }
-.topNavBar {
-    background-image: url('../../assets/images/fondoTopMenu.jpeg');
-    background-size: cover;
+.liImgMenu {
+    width: 90%;
 }
 .imgMenu {
     width: 130px;
@@ -31,7 +30,7 @@ a {
     align-items: flex-end;
 }
 .icons {
-    margin-right: 100px ;
+
 }
 .icon {
     width: 25px;

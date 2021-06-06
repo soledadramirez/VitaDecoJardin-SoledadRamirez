@@ -1,23 +1,10 @@
 import './NavBar.css';
-import logo from '../../assets/images/logoVita.png';
-import logow from '../../assets/images/wspIcon.png';
-import logoe from '../../assets/images/emailIcon.png';
-import logoi from '../../assets/images/instagramIcon.png';
-
+import CartWidget from '../CartWidget/CartWidget';
 
 function NavBar () {
     return (
+        <div className = 'topNavBar'>
             <nav className = 'topNavBar'>
-                <ul className = 'topMenu'>
-                    <li >
-                    <img className = 'imgMenu' src = {logo}></img>
-                    </li>
-                    <li className = 'icons'>
-                    <img className = 'icon' src = {logoi}></img>
-                    <img className = 'icon' src = {logoe}></img>
-                    <img className = 'icon' src = {logow}></img>
-                    </li>    
-                </ul>
                 <ul className = 'menu'>
                     <li className='prom'>
                         <a href = '#seccion2'> Promociones</a>
@@ -37,8 +24,11 @@ function NavBar () {
                     <li className='contact'>
                         <a href = '#seccion2'> Contactanos</a>
                     </li>
+                    <CartWidget text = 'Comprar'/> 
+
                 </ul>
             </nav>
+        </div>
     )
 }
 

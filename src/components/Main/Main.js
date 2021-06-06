@@ -1,10 +1,18 @@
-import logo from '../../assets/images/logoVita.png';
 import './Main.css';
-import NavBar from '../NavBar/NavBar.js'
+import NavBar from '../NavBar/NavBar.js';
+import ItemListContainer from '../ItemListContainer/ItemListContainer';
+import Header from '../Header/Header';
+import SearchBar from '../SearchBar/SearchBar';
+
+
 
 function Main() {
   return (
-    <NavBar />
+    <div>
+        <Header />
+        <NavBar />
+        <ItemListContainer greeting = 'Catálogo de productos'/>
+    </div>
   );
 }
 
