@@ -1,7 +1,5 @@
 
-.itemListContainer{
-    font-size: 120px;
-    font-weight: 100;
-    text-align: center;
-    color: gray;
+.contItemList{
+    display: flex;
+    justify-content: center;
 }

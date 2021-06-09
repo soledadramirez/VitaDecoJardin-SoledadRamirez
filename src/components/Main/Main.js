@@ -5,8 +5,7 @@ import Header from '../Header/Header';
 import SearchBar from '../SearchBar/SearchBar';
 
 
-
-function Main() {
+ function Main() {
   return (
     <div>
         <Header />

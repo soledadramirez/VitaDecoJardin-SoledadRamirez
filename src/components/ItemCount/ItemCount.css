@@ -1,0 +1,58 @@
+.contItem {
+   width: 18rem;
+   height: 33rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   border-width: 1px;
+   border-radius: 10px;
+   margin: 20px;
+   box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.contItemImg {
+    width: 100%;
+    height: 65%;
+}
+.contItemImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.contData {
+    height: 35%;
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemName {
+    text-align: center;
+    padding: 25px;
+    font-weight: 300;
+    font-size: medium;
+}
+.amount {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: whitesmoke;
+    width: 90%;
+    border-radius: 5px;
+}
+.contOrangeButton {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+}
+.orangeButton {
+    background-color: #fc9444;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: whitesmoke;
+}
