@@ -1,8 +1,8 @@
-import './ItemCount.css';
+import './Item.css';
 import { FaPlus, FaMinus} from 'react-icons/fa';
 import { useState } from 'react';
 
-const ItemCount = ({initial, stock, onAdd}) => {
+const ItemCount = ({initial, stock, onAdd, name}) => {
     
     const [item, setItem] = useState (initial)
     
@@ -18,7 +18,7 @@ const ItemCount = ({initial, stock, onAdd}) => {
         <div className = 'contItem'>
             <div className = 'contData'>
                 <div className = 'itemName'>
-                    Producto
+                    {name}
                 </div>
                 <div className = 'amount'>  
                     <FaMinus onClick = {() => {subItems() }}/>

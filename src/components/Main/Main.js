@@ -1,8 +1,9 @@
 import './Main.css';
 import NavBar from '../NavBar/NavBar.js';
-import ItemListContainer from '../ItemListContainer/ItemListContainer';
+import ItemList from '../ItemList/ItemList';
 import Header from '../Header/Header';
 import SearchBar from '../SearchBar/SearchBar';
+import ItemContainer from '../itemContainer/itemContainer';
 
 
  function Main() {
@@ -10,7 +11,9 @@ import SearchBar from '../SearchBar/SearchBar';
     <div>
         <Header />
         <NavBar />
-        <ItemListContainer greeting = 'Catálogo de productos'/>
+        <ItemContainer>
+          <ItemList greeting = 'Catálogo de productos'/>
+        </ItemContainer>
     </div>
   );
 }
